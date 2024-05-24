@@ -9,6 +9,9 @@
 }
 * {
     font-family: Poppins, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
 }
 
 body {
@@ -29,11 +32,12 @@ body.light-theme {
 }
 
 .title {
-    margin-top: 30px;
+    /* margin-top: 30px; */
+   background-color: rgba(0, 0, 0, 0.46); 
 }
 
 .title.light-theme {
-    background-color: #f1f1f1;
+    background-color: #32313130;
     color: #333;
 }
 
@@ -43,15 +47,17 @@ body.light-theme {
 }
 
 .head {
-    height: 70px;
-    border-radius: 5px;
+     height: 70px;
+    border-radius: 5px;  
  
 }
 
 h1 {
     font-size: 30px;
+    margin-left: 20px;  
 }
 /* header{
+ 
     background-color: var(--dark-blue-elements);
     color: var(--white-elements);
     padding: 1em;
@@ -68,7 +74,7 @@ h1 {
     width: 200px;
     font-size: 16px;
     border-radius: 7px;
-    margin-left: 20px;
+    margin: 20px;
 }
 
 #theme-switcher {
@@ -76,15 +82,16 @@ h1 {
     margin-right: 20px;
     border-radius: 5px;
     padding: 10px;
-    margin-top: 15px;
+    margin-top: -3.5rem;
 }
 
 #region-filter {
     height: 30px;
     float: right;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     border-radius: 3px;
     font-size: 14px;
+    margin: 20px;
 }
 option{
     height: 150px;

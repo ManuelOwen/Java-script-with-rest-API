@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // fetching data from the api
     const fetchCountries = async () => {
       try {
-        const res = await fetch('https://restcountries.com/v2/all');
+        const res = await fetch('./data.json');
         countriesData = await res.json();
         displayCountries(countriesData);
       } catch (err) {
